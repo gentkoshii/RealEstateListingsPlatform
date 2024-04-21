@@ -20,7 +20,7 @@ function Navbar(){
                         <a href="">Properties</a>
                     </div>
                     <div className="navAuthorization">
-                        <a>Login</a>
+                        <a>Log In</a>
                         <a>Sign Up</a>
                     </div>
                     <div className="navbarIcon">

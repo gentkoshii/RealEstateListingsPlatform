@@ -20,8 +20,8 @@ function Navbar(){
                         <a href="">Properties</a>
                     </div>
                     <div className="navAuthorization">
-                        <a>Log In</a>
-                        <a>Sign Up</a>
+                        <a href="login">Log In</a>
+                        <a href="signup">Sign Up</a>
                     </div>
                     <div className="navbarIcon">
                         <img src="./public/Icons/menu2.png" alt="Hamburger-Menu" onClick={() => setOpen((prev)=> !prev)}/>

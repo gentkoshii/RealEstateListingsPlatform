@@ -31,3 +31,4 @@ function homeFooter() {
         </div>
     )
 }
+export default homeFooter

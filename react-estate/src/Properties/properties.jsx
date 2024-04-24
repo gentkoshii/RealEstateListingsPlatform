@@ -7,7 +7,13 @@ function properties() {
     return (
         <div className="properties">
             <Navbar></Navbar>
-            <div className="filter">filter</div>
+            <div className="filter">
+                <select name="Sort" id="Sort">
+                    <option value="Exclusive">SORT: EXCLUSIVE (DEFAULT)</option>
+                    <option value="Affordable">SORT: AFFORDABLE</option>
+                    <option value="Cheap">SORT: CHEAP</option>
+                </select>
+            </div>
             <div className="grid">
                 <div className="Property">
                     <a href="">

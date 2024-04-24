@@ -3,7 +3,7 @@
 .homeHelp{
     display: flex;
     justify-content: center;
-    height: 66vh;
+    height: 75vh;
     background-color: #F4F3EF;
     border: 1px solid black;
     .HelpCenter{
@@ -27,9 +27,14 @@
             font-family: "Alata", sans-serif;
             padding-bottom: 20px;
         }
-        button{
+        a{
+        }
+        #NeedHelpButton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 40px;
-            width: 100px;
+            width: 120px;
             background-color: #4C695F;
             border: 1px solid #658479;
             border-radius: 50px 50px 50px 50px;
@@ -37,8 +42,8 @@
             font-family: "Alata", sans-serif;
             color: white;
                 &:hover{
-                    transition: all 0.2s ease;
-                    font-size: 105%;
+                    transition: all 0.3s ease;
+                    font-size: 17px;
                      &:active{
                         text-decoration: underline;
                     }

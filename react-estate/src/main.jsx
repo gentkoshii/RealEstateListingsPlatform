@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-
 import {
   createBrowserRouter,
   RouterProvider,
@@ -9,6 +8,11 @@ import {
 import Login from './Login/login.jsx';
 import SignUp from './Signup/signup.jsx';
 import Properties from './Properties/properties.jsx';
+import NeedHelp from './NeedHelp/needhelp.jsx';
+import HomeOYO from './NeedHelp/homeOYO.jsx';
+import BuyingYH from './NeedHelp/buyingYH.jsx';
+import BeyondC from './NeedHelp/beyondC.jsx';
+
 
 
 const router = createBrowserRouter([
@@ -27,6 +31,22 @@ const router = createBrowserRouter([
   {
     path: "properties",
     element: <Properties />,
+  },
+  {
+    path: "needhelp",
+    element: <NeedHelp />,
+  },
+  {
+    path: "homeOYO",
+    element: <HomeOYO />,
+  },
+  {
+    path: "buyingYH",
+    element: <BuyingYH />,
+  },
+  {
+    path: "beyondC",
+    element: <BeyondC />,
   },
 ]);
 

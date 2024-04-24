@@ -5,15 +5,15 @@ function homeHelp(){
         <div className="homeHelp">
             <div className="HelpCenter">
                 <h2>
-                    Tips for home buyers
+                Advice on Buying a House
                 </h2>
                 <img src="./Img/NeedHelp.jpg" alt="This is a picture" />
                 <p>
-                    Description will be here... description will be here...description will be here...description will be here...description will be here...description will be here...description will be here...description will be here...description will be here....
+                Buying a home is a significant and exciting decision. This section provides professional real estate advice and helpful home buying tips.
                 </p>
-                <button>
+                <a href="needhelp" id="NeedHelpButton" >
                     Need Help?
-                </button>
+                </a>
             </div>
         </div>
     )
